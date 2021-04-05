@@ -1,0 +1,77 @@
+<!--This is a infinite heart beating exercise, using only CSS to create it.
+
+-->
+ <style>
+   
+.back{
+    position: fixed;
+    padding: 0px;
+    margin: 0px;
+    top:0px;
+    left:0px;
+    height: 100%;
+    width:100%;
+    animation-name: back;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+    background:white;
+
+}
+
+.heart{
+    position:absolute;
+    margin:auto;
+    top:0px;
+    left: 0px;
+    bottom: 0px;
+    right: 0px;
+    background: pink;
+    height: 100px;
+    width: 100px;
+    transform : rotate(-45deg);
+    animation-name: beat;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+    }
+
+.heart::after{
+    background-color: pink;
+    content: '';
+    border-radius: 50px;
+    position: absolute;
+    height: 100px;
+    width: 100px;
+    top: 0px;
+    left: 50px;
+
+
+}
+.heart::before{
+
+    background-color: pink;
+    content :'';
+    border-radius: 50%;
+    position: absolute;
+    height:100px;
+    width: 100px;
+    top: -50px;
+    right: 0px;
+}
+
+@keyframes beat{
+
+/*This rotate transformation cancel the rotation from .heart*/
+50% {transform: scale(0.5) rotate(-45deg)}
+
+
+}
+
+@keyframes back{
+50% { background: #FFe6F2 ;}
+
+}
+</style>
+
+
+<div class ='back'></div>
+<div class ='heart'   ></div>

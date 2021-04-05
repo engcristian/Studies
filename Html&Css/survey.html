@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple Survey</title>
+
+<style>
+    p:focus{
+        background-color: blue;
+        color: white;
+    }
+
+
+   .field{
+    margin-left: auto;
+    margin-right: auto;
+
+       width: 30%;
+   }
+   
+    .center {
+       margin-left: auto;
+       margin-right: auto;
+       width: 15%;
+    }
+
+</style>
+
+</head>
+
+<body>
+
+    <header class="center">
+        <h1>My Survey</h1>
+    </header>
+
+    <section>
+        <form class = 'field' >
+        <p tabindex="1">Instructions for the survey.</p>
+        <label for= " name" > Username</label>
+        <input type = 'text' id ='name' name ='name'><br>
+        <fieldset  >
+            <legend>First Survey </legend>
+            <input type = 'radio' id = 'one' name = 'bt1'>
+            <label for="first"> First survey option.</label><br>
+            <input type = 'radio' id = 'two' name = 'bt2'>
+            <label for="second"> Second survey option.</label><br>
+            <input type = 'radio' id = 'three' name = 'bt3'>
+            <label for="third"> third survey option.</label>
+        </fieldset>
+
+
+        <fieldset >
+            <legend >Second Survey</legend>
+            <input type="checkbox" name="bt4" id=" four">
+            <label for="four"> Fourth survey option.</label> <br>
+            <input type="checkbox" name="bt5" id="five">
+            <label for="five">Fifth survey option.</label><br>
+            <input type="checkbox" name="bt6" id="six">
+            <label for="six">Sixth survey option.</label><br>
+        </fieldset><br>
+
+        <input type="submit" id =' sub' name = 'submit' value="Submit">
+        
+        
+        </form>
+    </section><br>
+    <footer  >
+        &copy; 2021 My Survey
+    </footer>
+    
+</body>
+</html>

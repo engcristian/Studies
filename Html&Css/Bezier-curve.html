@@ -1,0 +1,46 @@
+<style>
+.balls {
+    height: 50px;
+    width: 50px;
+    position: fixed;
+    border-radius: 50%;
+    top : 10%;
+    animation-name : falling;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;    
+
+}
+
+#ball1 {
+    right: 40%;
+    background : blue;
+    animation-timing-function: linear;
+
+}
+
+#ball2{
+    right: 50%;
+    background: red;
+    animation-timing-function: ease-out;
+
+}
+#ball3{
+    right: 60%;
+    background: green;
+    animation-timing-function: cubic-bezier(0.311, 0.441, 0.444, 1.1);
+
+}
+@keyframes falling{
+ 50% { top: 60%;}
+
+}
+
+
+
+
+
+</style>
+
+<div class = 'balls' id='ball1'></div>
+<div class =' balls' id ='ball2'></div>
+<div class =' balls' id ='ball3'></div>

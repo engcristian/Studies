@@ -1,0 +1,102 @@
+<style>
+    body{
+        font-family: Arial, sans-serif;
+    }
+
+    header{
+        display:flex;
+    }
+    header .profile-thumbnail{
+        width: 50px;
+        height: 50px;
+        border-radius: 4px;;
+    }
+    header .profile-name{
+        display : flex;
+    }
+    header .follow-btn{
+        display : flex;
+        margin: 0 0 0 auto;
+    }
+
+    header .follow-btn button{
+        border: 0;
+        border-radius: 3px;
+        padding: 5px;
+    }
+
+    header h3, header h4 {
+    display : flex;
+    margin: 0;
+
+    }
+
+    #inner p{
+
+        margin-bottom: 10px;
+        font-size: 20px;
+    }
+    #inner hr{
+
+        margin: 20px 0;
+        border-style: solid;
+        opacity: 0.1;
+    }
+    footer{
+        display: flex;
+    }
+
+    footer .stats{
+        display: flex;
+        font-size: 15px;
+    }
+
+    footer .stats strong{
+        font-size: 18px;
+
+    }
+    footer .stats .likes{
+        margin-left: 10px;
+    }
+
+    footer .cta{
+    margin-left: auto;
+    }
+    footer .cta button{
+    border: 0;
+    background: transparent;
+    }
+</style>
+<header>
+<img src='C:\Users\crist\Pictures\Eu.jpg' alt = "Cristian's profile picture" class = 'profile-thumbnail'>
+<div class = 'profile-name'>
+    <h3>Cristian Santiago</h3>
+    <h4>@eng.cristian</h4>
+</div>
+    <div class = 'follow-btn'> 
+        <button >Follow</button>
+    </div>
+
+</header>
+
+<div id = 'inner'> 
+ <p >
+    I'm a control and automation engineer from Brazil.
+   </p>
+  <span class = 'date'> 8:10 PM - 15 Feb 2021</span><hr>
+</div>
+<footer >
+    <div class = 'stats'>
+        <div clasas = 'retweets'>
+            <strong>157</strong> Retweets
+        </div>
+        <div class = 'likes'>
+            <strong>436</strong> Likes
+        </div>
+    </div>
+    <div class = 'cta'>
+        <button >Share</button>
+        <button >Retweet</button>
+        <button >Like</button>
+    </div>
+</footer>

@@ -1,0 +1,52 @@
+<style>
+.box1{
+
+    height: 40px;
+    width: 40px;
+    background-color: cyan;
+    border-radius: 5px;
+    position: relative;
+    margin: 50px auto;
+}
+.box2{
+    height: 40px;
+    width: 40px;
+    background-color: cyan;
+    border-radius: 5px;
+    position:relative;
+    margin: 100px auto;
+
+
+    }
+
+#box1 {
+    animation-name: colorful;
+    animation-duration: 5s;
+    }   
+@keyframes colorful {
+        0% { background-color:lightblue;
+            left: 0px; }
+        50% {background-color: blue;
+            left:50px;}  
+        100% { background-color: darkblue;
+            left: -50px;} 
+            }
+#box2 {
+    animation-name: rainbow;
+    animation-duration: 5s;
+
+}
+    @keyframes rainbow{
+        0% {background-color: lightblue;
+        top: 0px}
+        50% {background-color:blue;
+        top:50px}
+        100% { background-color:darkblue;
+        top:-50px;}
+
+    }    
+
+
+</style>
+<div class = 'box1'  id= 'box1'></div>
+<div class = 'box2' id='box2'></div>

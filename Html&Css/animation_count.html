@@ -1,0 +1,26 @@
+<style>
+#ball{
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    position: relative;
+    margin: 50px auto;
+    background: linear-gradient(45deg, #ccffff, #ffcccc);
+    animation-name: bounce;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    }
+
+    @keyframes bounce{
+
+        0% { top: 0px}
+        50% { top: 350px;
+            height: 250px;
+            width:450px;}
+        100% {top: 0px;}
+    }
+    
+
+</style>
+
+<div id = 'ball'> </div>
