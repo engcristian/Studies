@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | Profile card component</title>
+
+  
+  <style>
+
+  body {
+
+    background-color: hsl(185, 75%, 39%);
+    font-size: 18px;
+    
+    font-family: 'Kumbh Sans', sans-serif;
+  }
+
+  .ball1 {
+
+    
+    position: relative;
+  }
+
+  .ball1 {
+    width: 500px;
+    height: 500px;
+    
+    right: 40%;
+    
+    bottom: 50%;
+    position: absolute;
+    transform: rotate(100deg);
+    
+  }
+  .ball2 {
+    width: 500px;
+    height: 500px;
+    top: 90%;
+    left: 50%;  
+    position: absolute;
+   
+  }
+  .card{
+    
+    position: fixed;
+    right: 35%;    
+    top: 35%;
+    border-radius: 15px 15px 0 0;
+    box-shadow: 0 10px 20px rgb(45, 50, 72, 0.19), 0 6px 6px rgb(106, 111, 129, 0.23)
+
+  }
+  #photo{
+    width: 100px;
+    height: 100px;
+    position: fixed;    
+    right: 44.5%;
+    top: 45%;
+    border-radius: 50%;
+    border-width: 5px;
+    border-color: white;
+    border-style: solid;    
+    
+   
+  }
+  .box{
+    
+    position: fixed;
+    width: 350px;
+    height: 250px;
+    background-color: white;
+    right: 35%;
+    top: 50%;
+    border-radius: 0 0 15px 15px;
+    box-shadow: 0 10px 20px rgb(45, 50, 72, 0.19), 0 6px 6px rgb(106, 111, 129, 0.23)
+  }
+  #inner hr{
+    margin: 110px 0;
+    border-style: solid;
+    opacity: 0.1;
+    
+
+  }
+  .profile{
+    position: fixed;
+    right: 600px;
+    bottom: 38.5%;   
+    
+
+  }
+  .city{
+    position: fixed;
+    right:46.5%;
+    bottom: 35%;
+    color: hsl(0, 0%, 59%);
+    
+
+  }
+  .age{
+    
+    position: fixed;
+    right:573px;
+    bottom: 38.5%;
+    color: hsl(0, 0%, 59%);
+
+  }
+  footer .fol{
+    
+    position: fixed; 
+    right:53%;
+    top: 68%;
+    
+    
+  }
+  footer .like {  
+   
+    position: fixed;    
+    right: 47.3%;
+    top: 68%;
+    
+  }
+  
+  footer .foto{
+    
+  
+    position: fixed;    
+    right: 39%;
+    top: 68%;
+      
+  }
+  #p_fol{
+    
+    position: relative;
+    right: 20%;
+    bottom: 8px;
+    color: hsl(0, 0%, 59%);
+  }
+  #p_like{
+    
+    position: relative;
+    color: hsl(0, 0%, 59%);
+    right: -5%;
+    bottom: 8px;
+  }
+  #p_foto{
+    
+    position: relative;
+    color: hsl(0, 0%, 59%);
+    right: 5%;
+    bottom: 8px;
+    
+  }
+
+
+
+
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+
+  </style>
+</head>
+<body>
+   
+  <div class= 'ball1'>
+    <svg width="978" height="978" xmlns="http://www.w3.org/2000/svg">
+      <defs>
+      <linearGradient x1="50%" y1=".779%" x2="50%" y2="100%" id="a">
+      <stop stop-color="#0989B4" stop-opacity="0" offset="0%"/>
+      <stop stop-color="#53FFEE" offset="99.94%"/>
+      </linearGradient>
+      </defs>
+      <ellipse fill="url(#a)" transform="rotate(-135 489 489)" 
+      cx="489" cy="489" rx="489" ry="488" fill-rule="evenodd" opacity=".5"/>
+      </svg>
+  </div>
+
+  
+     
+
+<div class = 'ball2'>
+    <svg width="978" height="978" xmlns="http://www.w3.org/2000/svg">
+    <defs><linearGradient x1="50%" y1=".779%" x2="50%" y2="100%" id="a">
+    <stop stop-color="#0989B4" stop-opacity="0" offset="0%"/>
+    <stop stop-color="#53FFEE" offset="99.94%"/>
+    </linearGradient></defs>
+    <ellipse fill="url(#a)" transform="scale(1 -1) rotate(45 1669.55 0)" 
+    cx="489" cy="489" rx="489" ry="488" fill-rule="evenodd" opacity=".25"/>
+    </svg>
+</div>
+
+
+
+  <img class = 'card'  src= 'C:\Users\crist\Desktop\My Gits\Frontendmentor-projects\profile-card-component\images\bg-pattern-card.svg' alt="">
+  
+  <div class="box" id ='inner'>
+    <p>
+      <section class="profile"> Victor Crest </section>
+      <section class='age'>26</section>
+      <section class="city">  London</section> <br>
+    </p><hr>
+  </div>
+
+  <footer>
+    <div class = 'fol'>
+      <p>80K</p>
+      <p  id ='p_fol'>Followers</p>
+    </div>
+    <div class="like" > 
+      <p>803K</p>
+      <p id ='p_like'>Likes</p>
+    </div>
+    <div class="foto" >
+      <p>1.4k</p>
+      <p id ='p_foto'>Photos</p>
+    </div>
+  </footer>   
+
+  <img  id ='photo' src="C:\Users\crist\Desktop\My Gits\Frontendmentor-projects\profile-card-component\images\image-victor.jpg" alt="">
+  
+  
+  
+  
+
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="#">Cristian Santiago</a>.
+  </div> 
+</body>
+</html>
