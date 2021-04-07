@@ -12,7 +12,7 @@
     <a href ='#intro' > Intro </a>|
     <a href ='#contents' > Contents </a>|
     <a href ='#project' > Projects </a>|
-    <a href ='credits' > Credits </a>
+    <a href ='#credits' > Credits </a>
   </b>
 </p>
 
