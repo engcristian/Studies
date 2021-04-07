@@ -60,5 +60,5 @@ Directory | Description
 
 Copyright (C) 2020-2021 by **Cristian Santiago** 
 ___
-![Visits Badge](https://badges.pufler.dev/visits/engcristian/engcristian)
+![Visits Badge](https://badges.pufler.dev/visits/engcristian/Studies)
 
