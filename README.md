@@ -58,4 +58,7 @@ Directory | Description
   <a name="credits">Credits </a> 
 </h2>
 
-Copyright (C) 2020-2021 by **Cristian Santiago**
+Copyright (C) 2020-2021 by **Cristian Santiago** 
+___
+![Visits Badge](https://badges.pufler.dev/visits/engcristian/engcristian)
+
