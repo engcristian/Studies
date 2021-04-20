@@ -29,4 +29,4 @@ select*from 'dados pessoais' where altura = 1.70
 
 delete from 'dados pessoais' where nome =  'Pedro'
 
-select*from 'dados pessoais' orded by nome desc
+select*from 'dados pessoais' order by nome desc

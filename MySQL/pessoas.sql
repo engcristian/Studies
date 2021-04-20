@@ -4,7 +4,7 @@ Table created at MySQL workbench as exercise from Curso em Vídeo;
 -----------------------------------------------------------------
 '''
 create table pessoas (
-    id INT NULL PRIMARY KEY auto_increment,
+    id INT not NULL PRIMARY KEY auto_increment,
     nome varchar(20) NOT NULL,
     idade tinyint,
     sexo char(1),
